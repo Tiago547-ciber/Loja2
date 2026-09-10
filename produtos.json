@@ -1,0 +1,64 @@
+{
+  "scarpin-clasico-nude": {
+    "id": "scarpin-clasico-nude",
+    "nome": "Scarpin Clássico Nude",
+    "imagem": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80",
+    "descricao": "Scarpin confeccionado em acabamento acetinado nude, salto fino equilibrado de 8cm e palmilha com tripla camada de espuma. A escolha perfeita para composições elegantes.",
+    "categoria": "saltos",
+    "medidas": {
+      "34": { "preco": 189.90, "num": "34", "peso": 0.500 },
+      "35": { "preco": 189.90, "num": "35", "peso": 0.520 },
+      "36": { "preco": 189.90, "num": "36", "peso": 0.540 },
+      "37": { "preco": 189.90, "num": "37", "peso": 0.560 },
+      "38": { "preco": 189.90, "num": "38", "peso": 0.580 },
+      "39": { "preco": 189.90, "num": "39", "peso": 0.600 }
+    }
+  },
+  "sandalia-bloco-dourada": {
+    "id": "sandalia-bloco-dourada",
+    "nome": "Sandália Salto Bloco Dourada",
+    "imagem": "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=80",
+    "descricao": "Sandália feminina de salto bloco de 5cm com tiras cruzadas no peito do pé e acabamento em couro metalizado ouro rose. Estabilidade e beleza sem abrir mão do conforto.",
+    "categoria": "sandalias",
+    "medidas": {
+      "34": { "preco": 159.90, "num": "34", "peso": 0.450 },
+      "35": { "preco": 159.90, "num": "35", "peso": 0.470 },
+      "36": { "preco": 159.90, "num": "36", "peso": 0.490 },
+      "37": { "preco": 159.90, "num": "37", "peso": 0.510 },
+      "38": { "preco": 159.90, "num": "38", "peso": 0.530 },
+      "39": { "preco": 159.90, "num": "39", "peso": 0.550 }
+    }
+  },
+  "rasteira-suave-pedraria": {
+    "id": "rasteira-suave-pedraria",
+    "nome": "Rasteirinha Minimalista Pedraria",
+    "imagem": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=800&q=80",
+    "descricao": "Rasteira delicada com aplicação de pedrarias discretas em tons quentes. Possui solado em borracha antiderrapante e calce super leve.",
+    "categoria": "rasteiras",
+    "medidas": {
+      "34": { "preco": 119.90, "num": "34", "peso": 0.300 },
+      "35": { "preco": 119.90, "num": "35", "peso": 0.320 },
+      "36": { "preco": 119.90, "num": "36", "peso": 0.340 },
+      "37": { "preco": 119.90, "num": "37", "peso": 0.360 },
+      "38": { "preco": 119.90, "num": "38", "peso": 0.380 },
+      "39": { "preco": 119.90, "num": "39", "peso": 0.400 }
+    }
+  },
+  "mule-elegance-preto": {
+    "id": "mule-elegance-preto",
+    "nome": "Mule Feminino Elegance Preto",
+    "imagem": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80",
+    "descricao": "Mule bico fino clássico com detalhe de fivela dourada exclusiva. Prático para calçar, combina com alfaiataria, jeans e vestidos casuais.",
+    "categoria": "mules",
+    "medidas": {
+      "34": { "preco": 139.90, "num": "34", "peso": 0.400 },
+      "35": { "preco": 139.90, "num": "35", "peso": 0.420 },
+      "36": { "preco": 139.90, "num": "36", "peso": 0.440 },
+      "37": { "preco": 139.90, "num": "37", "peso": 0.460 },
+      "38": { "preco": 139.90, "num": "38", "peso": 0.480 },
+      "39": { "preco": 139.90, "num": "39", "peso": 0.500 }
+    }
+  }
+}
+
+
