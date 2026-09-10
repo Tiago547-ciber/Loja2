@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Calçado | Graciosa</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        GRACIOSA
+        <span>CALÇADOS FEMININOS</span>
+      </a>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Coleção</a>
+      <a href="about.html">Sobre Nós</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <button id="btn-abrir-carrinho" class="btn-carrinho-topo">
+      🛒 Carrinho (<span id="qtd-carrinho">0</span>)
+    </button>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL: PDP -->
+  <main class="container" style="margin-top: 40px;">
+    <a href="index.html" class="btn-voltar">← Voltar para a Coleção</a>
+    
+    <div id="detalhe-produto-container" class="pdp-wrapper">
+      <!-- Injetado dinamicamente pelo script.js com base no ID da URL -->
+    </div>
+  </main>
+
+  <!-- CÓPIA DA SIDEBAR DO CARRINHO PARA NAVEGAÇÃO FLUIDA -->
+  <div id="carrinho-overlay" class="carrinho-overlay"></div>
+  <aside id="modal-carrinho" class="carrinho-modal">
+    <div class="carrinho-conteudo">
+      <div class="carrinho-header">
+        <h3>Seu Carrinho de Compras</h3>
+        <button id="btn-fechar-carrinho" class="btn-fechar">✕</button>
+      </div>
+
+      <div id="container-carrinho" class="carrinho-lista"></div>
+
+      <div class="calculator-box" style="margin-top: 15px;">
+        <div class="form-group">
+          <label for="cep">Informe seu CEP para calcular a entrega:</label>
+          <div class="input-inline">
+            <input type="text" id="cep" placeholder="00000-000" maxlength="9">
+            <button type="button" id="btn-calcular-frete" class="btn-secundario">Calcular</button>
+          </div>
+          <div id="info-frete-detalhes" class="frete-detalhes" style="display: none;"></div>
+        </div>
+
+        <div class="resumo-financeiro">
+          <div class="price-display">
+            <span>Subtotal:</span>
+            <strong id="preco-subtotal">R$ 0,00</strong>
+          </div>
+          <div class="price-display">
+            <span>Frete Estimado:</span>
+            <strong id="preco-frete">R$ 0,00</strong>
+          </div>
+          <div class="total-display">
+            <span>Total Geral:</span>
+            <strong id="preco-total">R$ 0,00</strong>
+          </div>
+        </div>
+
+        <form id="form-checkout" style="margin-top: 10px;">
+          <div class="form-group">
+            <label for="whatsapp">Seu WhatsApp (com DDD):</label>
+            <input type="tel" id="whatsapp" placeholder="(82) 99999-9999" required>
+          </div>
+
+          <div class="form-group">
+            <label for="pagamento-select">Forma de Pagamento Pretendida:</label>
+            <select id="pagamento-select">
+              <option value="Pix">Pix (Chave Instantânea)</option>
+              <option value="Cartão de Crédito">Cartão de Crédito (Link de Pagamento)</option>
+              <option value="Boleto Bancário">Boleto Bancário</option>
+            </select>
+          </div>
+
+          <div id="box-pix-info" class="pix-card">
+            <p><strong>🔑 Chave Pix (CNPJ):</strong> <code>12.345.678/0001-90</code></p>
+            <p><strong>Favorecido:</strong> Graciosa Calçados Femininos</p>
+          </div>
+
+          <button type="submit" id="btn-finalizar" class="btn-primary" style="width: 100%;">
+            Enviar Pedido via WhatsApp 📲
+          </button>
+        </form>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <p>&copy; 2026 Graciosa — Calçados Femininos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
